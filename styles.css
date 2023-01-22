@@ -1,10 +1,37 @@
 body {
     background: rgb(138, 149, 180);
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+    text-align: center;
 }
 
 .container {
-    
+    border: 2px solid #353333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding: 0 30px;
+}
+
+button {
+    width: fit-content;
+    background-color: rgba(183, 181, 221, 0.075);
+    font-size: 2rem;
+    margin: 70px 0;
+    border-radius: 10px;
+    color:rgb(12, 19, 41)
+}
+.outer-container {
+    display: flex;
+}
+
+#heading {
+    font-weight: 900;
+    font-size: 6rem;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
 }
