@@ -25,6 +25,8 @@ button {
 }
 .outer-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #heading {
