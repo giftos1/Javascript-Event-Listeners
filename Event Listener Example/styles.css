@@ -1,0 +1,25 @@
+body {
+    background-color: #46576d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.reveal-btn {
+    Width: 60%;
+    height: 50%;
+    background-color: #0e233f5b;
+    color: rgba(209, 215, 219, 0.76);
+    font-size: 3em;
+    border-radius: 20px;
+}
+
+#main-heading {
+    font-size: 4em;
+    font-weight: 900;
+    color: rgba(254, 254, 255, 0.514);
+}
