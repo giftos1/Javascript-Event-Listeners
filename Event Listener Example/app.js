@@ -6,14 +6,14 @@ function revealContent() {
     if (hiddenContent.classList.contains('reveal-btn')) {    
         hiddenContent.classList.remove('reveal-btn');
         revealBtn.style.width = '90%';
-        revealBtn.innerText = 'Reveal more';
+        revealBtn.innerText = 'Reveal More';
         
     } else {
         hiddenContent.classList.add('reveal-btn');
         revealBtn.style.width = 'fit-content';
         container.style.flexDirection = 'row';
         container.style.gap = '20px';
-        revealBtn.innerText = 'Reveal less';
+        revealBtn.innerText = 'Reveal Less';
     }
 
 }
